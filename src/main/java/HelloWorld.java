@@ -1,11 +1,7 @@
-import org.junit.Assert;
-import org.junit.Test;
-
-public class HelloWorld {
+class HelloWorld {
     private static final String HELLO_WORLD = "Hello World!";
 
-    @Test
-    public void test() {
-        Assert.assertEquals("Hello World!", HELLO_WORLD);
+    String getHelloWorld() {
+        return HELLO_WORLD;
     }
 }
