@@ -1,6 +1,7 @@
 package datastructures.arrays;
 
-import test.concurrent.forkfoinpull.ManipulationArrayTask;
+
+import concurrent.forkfoinpull.ManipulationArrayTask;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
